@@ -1,7 +1,3 @@
-# fakturama -> link na descrição -> ERP de exemplo que vamos usar
-# pyautogui -> é a ferramenta que a gente vai usar pra automatizar ERP
-
-# Escrever a lógica que a gente vai construir em português o passo a passo
 import pyautogui
 import pyperclip
 import subprocess
@@ -32,7 +28,6 @@ encontrou = encontrar_imagem("fakturama.png")
 
 # fakturama está aberto
 
-# como fazer isso para vários produtos
 tabela_produtos = pd.read_excel("Produtos.xlsx")
 print(tabela_produtos)
 for linha in tabela_produtos.index:
